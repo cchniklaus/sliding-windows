@@ -3,7 +3,7 @@ based on function numpy.lib.stride_tricks.as_strided, we create a simple and eff
 
 ## User Manual
 
-'''python
+```Python
 Row, Col = 11, 9
 x = np.arange(Row * Col).reshape(Row,Col)
 print(x)
@@ -13,7 +13,7 @@ win_step = (3,2)
 
 sw = Slide_wins(x,win_size,win_step)
 print(sw.run())
-'''
+```
 
 
 
